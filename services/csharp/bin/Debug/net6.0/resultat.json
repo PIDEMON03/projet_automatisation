@@ -1,0 +1,200 @@
+{
+  "Eleves": [
+    {
+      "Nom": "Farfouille",
+      "Prenom": "JULES",
+      "Notes": {
+        "S1101": "18,3",
+        "S1102": "19,9",
+        "S1103": "16,28125"
+      }
+    },
+    {
+      "Nom": "Chaussette",
+      "Prenom": "ALEXANDRE",
+      "Notes": {
+        "S1101": "18",
+        "S1102": "20",
+        "S1103": "15,53125"
+      }
+    },
+    {
+      "Nom": "Croustibat",
+      "Prenom": "ARTHUR",
+      "Notes": {
+        "S1101": "18,3",
+        "S1102": "19,4",
+        "S1103": "19,09375"
+      }
+    },
+    {
+      "Nom": "Ziboulette",
+      "Prenom": "MATHIEU",
+      "Notes": {
+        "S1101": "19",
+        "S1102": "18,4",
+        "S1103": "17,65625"
+      }
+    },
+    {
+      "Nom": "Papouilles",
+      "Prenom": "CLEMENT",
+      "Notes": {
+        "S1101": "13,7",
+        "S1102": "13,4",
+        "S1103": "19,09375"
+      }
+    },
+    {
+      "Nom": "Pamplemousse",
+      "Prenom": "ADRIEN",
+      "Notes": {
+        "S1101": "15",
+        "S1102": "18,8",
+        "S1103": "18,15625"
+      }
+    },
+    {
+      "Nom": "Pimpon",
+      "Prenom": "MATHIEU",
+      "Notes": {
+        "S1101": "13,7",
+        "S1102": "11",
+        "S1103": "16,125"
+      }
+    },
+    {
+      "Nom": "Cacahu�te",
+      "Prenom": "MASSYL",
+      "Notes": {
+        "S1101": "14",
+        "S1102": "8,4",
+        "S1103": "14,46875"
+      }
+    },
+    {
+      "Nom": "Tournicoche",
+      "Prenom": "HENRI",
+      "Notes": {
+        "S1101": "14,7",
+        "S1102": "9,4",
+        "S1103": "15,125"
+      }
+    },
+    {
+      "Nom": "Boudinou",
+      "Prenom": "AZIZ",
+      "Notes": {
+        "S1101": "12,7",
+        "S1102": "13,3",
+        "S1103": "16,40625"
+      }
+    },
+    {
+      "Nom": "Frimousse",
+      "Prenom": "LUCAS",
+      "Notes": {
+        "S1101": "8,3",
+        "S1102": "11,8",
+        "S1103": "15,96875"
+      }
+    },
+    {
+      "Nom": "Gloubiboulga",
+      "Prenom": "ANTOINE",
+      "Notes": {
+        "S1101": "11,8",
+        "S1102": "11,2",
+        "S1103": "13,875"
+      }
+    },
+    {
+      "Nom": "Grignote",
+      "Prenom": "SARAH",
+      "Notes": {
+        "S1101": "9,2",
+        "S1102": "9,2",
+        "S1103": "18,09375"
+      }
+    },
+    {
+      "Nom": "P�tunia",
+      "Prenom": "LOU",
+      "Notes": {
+        "S1101": "7,7",
+        "S1102": "8,6",
+        "S1103": "15,90625"
+      }
+    },
+    {
+      "Nom": "Ziziroulette",
+      "Prenom": "AURELIEN",
+      "Notes": {
+        "S1101": "9",
+        "S1102": "11,9",
+        "S1103": "15,78125"
+      }
+    },
+    {
+      "Nom": "Foufounette",
+      "Prenom": "GABRIEL",
+      "Notes": {
+        "S1101": "6,7",
+        "S1102": "7",
+        "S1103": "16,75"
+      }
+    },
+    {
+      "Nom": "Grincheux",
+      "Prenom": "LORENZO",
+      "Notes": {
+        "S1101": "6",
+        "S1102": "13,2",
+        "S1103": "14,375"
+      }
+    },
+    {
+      "Nom": "Tourniquet",
+      "Prenom": "CYRILLE",
+      "Notes": {
+        "S1101": "9,3",
+        "S1102": "7,4",
+        "S1103": "16,125"
+      }
+    },
+    {
+      "Nom": "Barbapapa",
+      "Prenom": "ANTONIO",
+      "Notes": {
+        "S1101": "6",
+        "S1102": "9,6",
+        "S1103": "15,25"
+      }
+    },
+    {
+      "Nom": "Bidibidou",
+      "Prenom": "NASSIM",
+      "Notes": {
+        "S1101": "5,5",
+        "S1102": "8,8",
+        "S1103": "12,875"
+      }
+    },
+    {
+      "Nom": "Chocolatine",
+      "Prenom": "JULIEN",
+      "Notes": {
+        "S1101": "10",
+        "S1102": "2,8",
+        "S1103": "13,46875"
+      }
+    }
+  ],
+  "Coefficients": {
+    "coefficients": {
+      "S1101": 4.75,
+      "S1102": 4.25,
+      "S1103": 2.0
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+    "eleves": [
+      {
+        "nom": "Dupont",
+        "prenom": "Jean",
+        "notes": {
+          "S1202A": 15,
+          "S1202B": 12,
+          "S1203": 14,
+          "S1204": 18
+        }
+      },
+      {
+        "nom": "Martin",
+        "prenom": "Marie",
+        "notes": {
+          "S1202A": 16,
+          "S1202B": 13,
+          "S1203": 15,
+          "S1204": 17
+        }
+      },
+      {
+        "nom": "Dubois",
+        "prenom": "Pierre",
+        "notes": {
+          "S1202A": 14,
+          "S1202B": 11,
+          "S1203": 16,
+          "S1204": 19
+        }
+      },
+      {
+        "nom": "Tremblay",
+        "prenom": "Sophie",
+        "notes": {
+          "S1202A": 17,
+          "S1202B": 14,
+          "S1203": 13,
+          "S1204": 18
+        }
+      },
+      {
+        "nom": "Gagnon",
+        "prenom": "Lucie",
+        "notes": {
+          "S1202A": 15,
+          "S1202B": 16,
+          "S1203": 12,
+          "S1204": 20
+        }
+      }
+    ],
+    "coefficients": {
+      "S1202A": 3,
+      "S1202B": 2,
+      "S1203": 1,
+      "S1204": 4
+    }
+  }
+  

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IrXDMv/vRHzOaMFU0a+svqF9kN+OMKJ4yIFW3WF9Z+P38c1ExuZnQT8acQqA1aE7PRWmrsj8lW8wLmWMtxJvdg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marti\\Documents\\BUT\\BUT 3\\Semestre 1\\Automatisation\\Projet\\services\\csharp\\csharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marti\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

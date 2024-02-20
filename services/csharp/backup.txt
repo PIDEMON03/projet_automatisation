@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using Newtonsoft.Json;
+using CsvHelper;
+using CsvHelper.Configuration;
+using System.Globalization;
+
+public class Etudiant
+{
+    public string Nom { get; set; }
+    public string Prenom { get; set; }
+    public Dictionary<string, string> Notes { get; set; }
+}
+
+public class Program
+{
+    public static void Main()
+    {
+        string inputFilePath = "../../../donnees.csv";
+        string outputFilePath = "../../../sortie.json";
+
+        List<Etudiant> eleves = ParseCSV(inputFilePath);
+        Dictionary<string, double> coefficients = CalculateCoefficients(eleves);
+
+        var result = new { eleves, coef = coefficients };
+
+        string jsonResult = JsonConvert.SerializeObject(result, Formatting.Indented);
+        File.WriteAllText(outputFilePath, jsonResult);
+
+        Console.WriteLine("Conversion terminée avec succès !");
+    }
+
+    public static List<Etudiant> ParseCSV(string filePath)
+    {
+        using (var reader = new StreamReader(filePath))
+        using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture) { Delimiter = ";" }))
+        {
+            var records = csv.GetRecords<Etudiant>().ToList();
+            return records.Skip(1).ToList(); // Skip the header row
+        }
+    }
+
+    public static Dictionary<string, double> CalculateCoefficients(List<Etudiant> eleves)
+    {
+        var coefficients = new Dictionary<string, double>();
+
+        if (eleves.Count == 0)
+            return coefficients;
+
+        var firstEtudiant = eleves.First();
+        foreach (var note in firstEtudiant.Notes.Keys)
+        {
+            double totalCoef = 0;
+            double totalNote = 0;
+
+            foreach (var etudiant in eleves)
+            {
+                totalCoef += etudiant.Notes[note];
+                totalNote += etudiant.Notes[note] * etudiant.Notes["Coef."];
+            }
+
+            double coef = totalNote / totalCoef;
+            coefficients.Add(note, Math.Round(coef, 2));
+        }
+
+        return coefficients;
+    }
+}

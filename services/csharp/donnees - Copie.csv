@@ -1,0 +1,11 @@
+etudid;code_nip;Rg;Nom;Civ.;Nom;Prenom;Cursus;UEs;Moy;Abs;Just.;UE11;Bonus UE11;S1101;S1102;S1103;S1104;S1105A;S1105B;S1106;S1107;S1108;UE12;Bonus UE12;S1201;S1202A;S1202B;S1203;S1204;S1205;Bac;Sp‚cialit‚;Type Adm.;Rg. Adm.;
+10596;;;;M.;eleve1;prenom1;S1 S2;2/2;;0;0;;;19;20;18,65625;15;17,60714286;18,17647059;15,8;13,1;19,4;;;16,75;14,5;19,5;14,10909091;15,58333333;19;;;Inconnue;;;
+10612;;;;M.;eleve2;prenom2;S1 S2;2/2;;3;3;;;18,3;19,9;16,28125;16;16,30357143;18,8125;13,2;15,69;18,9;;;17,875;16,5;18;17,70909091;16,33333333;17;;;Inconnue;;;
+;;;Min.;;;Min.;;;;;;;;0;0;5,541666667;0;6,125;0;0;0;6,8;;;3,3125;11,5;0;7,827272727;6,5;0;;;;;;
+;;;Max.;;;Max.;;;;;;;;19;20;19,09375;19;17,64285714;19;16,2;19,8;19,4;;;17,875;17;20;17,70909091;18,16666667;19;;;;;;
+;;;Moy.;;;Moy.;;;;;;;;11,56086957;11,89130435;15,67844203;13,2173913;13,13592929;14,48199061;10,63913043;14,11478261;14,03543478;;;11,2173913;13,97826087;11,86956522;13,66916996;13,37681159;13,63043478;;;;;;
+;;;Coef.;;;Coef.;;;;;;;;4,75;4,25;2;1,5;3;1,25;1;0,5;1,75;;;3,5;1,25;1,25;2;1,5;0,5;;;;;
+;;;ECTS;;;ECTS;;;30;;;20;;;;;;;;;;;10;;;;;;;;;;;;;
+;;;Code Apog‚e;;;Code Apog‚e;;;;;;DTIUE11;;DTALG11;DTLAC11;DTWEB11;DTWIN11;DTIBD11;DTBDO11;DTISI11;DTRES11;DTSYE11;DTIUE12;;DTMAT12;DTECO12;DTGES12;DTANG12;DTEXC12;DTPP112;;;;;;
+etud_codes;etud_codes;rang;identite_court;identite_detail;identite_detail;identite_detail;cursus;ues_validables;moy_gen;abs;abs;ue_347;ue_347;ue_347_modules;ue_347_modules;ue_347_modules;ue_347_modules;ue_347_modules;ue_347_modules;ue_347_modules;ue_347_modules;ue_347_modules;ue_348;ue_348;ue_348_modules;ue_348_modules;ue_348_modules;ue_348_modules;ue_348_modules;ue_348_modules;admission;admission;admission;admission;;
+etudid;code_nip;Rg;Nom;Civ.;Nom;Pr‚nom;Cursus;UEs;Moy;Abs;Just.;UE11;Bonus UE11;S1101;S1102;S1103;S1104;S1105A;S1105B;S1106;S1107;S1108;UE12;Bonus UE12;S1201;S1202A;S1202B;S1203;S1204;S1205;Bac;Sp‚cialit‚;Type Adm.;Rg. Adm.;;

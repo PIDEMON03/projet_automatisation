@@ -1,0 +1,3 @@
+Mr.Marhic m'a dit de préciser que j'ai fait ce travail seul étant donné que le nombre d'élèves dans la classe est impair.
+port backend : 3000
+port frontend : 3001
